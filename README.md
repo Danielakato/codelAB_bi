@@ -9,7 +9,7 @@
 
 </div>
 
-<ing src="https://github.com/Danielakato/codelAB_bi/commit/bf2b7c96d2894da5f193319745e47c9c651201ea">
+<ing src="https://portada Daniela Kayerr.png">
 
 <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***Hablando de temas personales...***
 - 🔭 Soy Estudiante de Administración de empresas
