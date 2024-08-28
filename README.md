@@ -25,11 +25,38 @@
 <a href="https://www.linkedin.com/in/daniela-kayerr" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 
+---
 
+# Codelab_BI: Generación y Almacenamiento de Datos Financieros en una Base de Datos SQLite3
+Este proyecto genera datos financieros ficticios utilizando la biblioteca Faker y la API randomuser.me, y almacena estos datos en una base de datos SQLite3. Los datos incluyen información de clientes, sucursales, tipos de transacciones y transacciones, incluidas las fraudulentas. A continuación se describen los pasos y procesos implementados.
 
-# codelab_BI: Generación y Almacenamiento de Datos Financieros en una Base de Datos SQLite3
+## 1. Configuración inicial y creación de la base de datos
+- Bibliotecas Importadas: Utilizamos Python con bibliotecas como sqlite3, pandas, requests, uuid, Faker, numpy, y shutil.
+- Conexión a SQLite3: Se estableció una conexión a una base de datos SQLite3 llamada financial_data.db2.
+- Tablas Creadas:
+    customers: Almacena información de clientes.
+    branches: Almacena información sobre sucursales bancarias.
+    transaction_types: Almacena los diferentes tipos de transacciones.
+    transactions: Registra las transacciones, incluyendo si son fraudulentas.
+  
+## 2. Generación y Almacenamiento de Datos de Clientes
+- API Utilizada: Los datos de los clientes se obtuvieron utilizando la API randomuser.me, que proporciona información de usuarios ficticios.
+- Datos Incluidos: ID de cliente, nombre, dirección, número de teléfono y correo electrónico.
+- Almacenamiento: Los datos de clientes se guardaron en la tabla customers de SQLite3.
 
-A continuación se presentará el siguiente proyecto que se basa en la programación de un modelo finanicero ficticio con un lenguaje SQL
+## 3. Generación y Almacenamiento de Datos de Sucursales
+- Datos Generados: Usando Faker, se generaron datos para las sucursales, incluyendo ID de sucursal, ubicación, nombre del gerente y número de contacto.
+- Almacenamiento: Los datos de sucursales se guardaron en la tabla branches.
 
-## creación de
-portafolio de mis implementaciones en Business Inteligence que deseo compartir con la comunidad que esté interesada
+## 4. Generación y Almacenamiento de Tipos de Transacciones
+- Datos Incluidos: Se crearon dos tipos de transacciones: "online" y "in-store", cada una con una descripción asociada.
+- Almacenamiento: Los datos se guardaron en la tabla transaction_types.
+
+## 5. Generación y Almacenamiento de Transacciones
+- Datos Generados: Transacciones con ID, ID de cliente, fecha, monto, ubicación, tipo de transacción, e ID de sucursal.
+- Se identificaron algunas transacciones como fraudulentas.
+- Almacenamiento: Los datos se guardaron en la tabla transactions.
+
+## 6. Verificación y Guardado Final
+- Verificación: Se verificó que todas las tablas se crearon correctamente en la base de datos.
+- Guardado: Finalmente, la base de datos se guardó en Google Drive para su almacenamiento a largo plazo.
