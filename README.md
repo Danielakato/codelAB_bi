@@ -93,6 +93,8 @@ Creación de varias tablas en la base de datos. El código generado por la IA cr
       - Datos incluidos: Se crearon dos tipos de transacciones: "online" y "in-store", cada una con una descripción asociada
       - Almacenamiento: Los datos se guardaron en la tabla transaction_types.
         
+      <img src="https://github.com/Danielakato/codelAB_bi/blob/main/tablas%20tipos%20de%20transacciones.png">
+        
   4. Tabla de generación y almaenamiento de transacciones:
       - Se identificaron algunas transacciones como fraudulentas.
       - Datos incluidos: Transacciones con ID, ID de cliente, fecha, monto, ubicación, tipo de transacción, e ID de sucursal.
