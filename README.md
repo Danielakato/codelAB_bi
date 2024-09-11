@@ -73,41 +73,35 @@ Después, los resultados se imprimen como un DataFrame.
      <img src="https://github.com/Danielakato/codelAB_bi/blob/main/histograma%203.png">
      
 ## 4. Creación de Tablas en SQLite
-Prompt generado por IA: Aquí solicitaste la creación de varias tablas en la base de datos. El código generado por la IA crea las siguientes tablas en SQLite:
-
-
-
-
-
-
-
-## 1. Configuración inicial y creación de la base de datos
-- Bibliotecas Importadas: Utilizamos Python con bibliotecas como sqlite3, pandas, requests, uuid, Faker, numpy, y shutil.
-- Conexión a SQLite3: Se estableció una conexión a una base de datos SQLite3 llamada financial_data.db2.
-- Tablas Creadas:
-    customers: Almacena información de clientes.
-    branches: Almacena información sobre sucursales bancarias.
-    transaction_types: Almacena los diferentes tipos de transacciones.
-    transactions: Registra las transacciones, incluyendo si son fraudulentas.
+Creación de varias tablas en la base de datos. El código generado por la IA crea las siguientes tablas en SQLite:
+  1. Tabla de clientes:
+      - API randomuser.me, que proporciona información de usuarios ficticios.
+      - Datos Incluidos: ID de cliente, nombre, dirección, número de teléfono y correo electrónico.
+      - Almacenamiento: Los datos de clientes se guardaron en la tabla customers de SQLite3.
+        
+  <img src="https://github.com/Danielakato/codelAB_bi/blob/main/tabla%20customers.png">
   
-## 2. Generación y Almacenamiento de Datos de Clientes
-- API Utilizada: Los datos de los clientes se obtuvieron utilizando la API randomuser.me, que proporciona información de usuarios ficticios.
-- Datos Incluidos: ID de cliente, nombre, dirección, número de teléfono y correo electrónico.
-- Almacenamiento: Los datos de clientes se guardaron en la tabla customers de SQLite3.
+  2. Tabla de sucursales:
+     - Usando Faker
+     - Datos incluidos: ID de sucursal, ubicación, nombre del gerente y número de contacto.
+     - Almacenamiento: Los datos de sucursales se guardaron en la tabla branches.
+       
+  3. Tabla de tipos de transacciones:
+      - Usando Faker
+      - Datos incluidos: Se crearon dos tipos de transacciones: "online" y "in-store", cada una con una descripción asociada
+      - Almacenamiento: Los datos se guardaron en la tabla transaction_types.
+        
+  4. Tabla de generación y almaenamiento de transacciones:
+      - Se identificaron algunas transacciones como fraudulentas.
+      - Datos incluidos: Transacciones con ID, ID de cliente, fecha, monto, ubicación, tipo de transacción, e ID de sucursal.
+      - Almacenamiento: Los datos se guardaron en la tabla transactions.
 
-## 3. Generación y Almacenamiento de Datos de Sucursales
-- Datos Generados: Usando Faker, se generaron datos para las sucursales, incluyendo ID de sucursal, ubicación, nombre del gerente y número de contacto.
-- Almacenamiento: Los datos de sucursales se guardaron en la tabla branches.
 
-## 4. Generación y Almacenamiento de Tipos de Transacciones
-- Datos Incluidos: Se crearon dos tipos de transacciones: "online" y "in-store", cada una con una descripción asociada.
-- Almacenamiento: Los datos se guardaron en la tabla transaction_types.
 
-## 5. Generación y Almacenamiento de Transacciones
-- Datos Generados: Transacciones con ID, ID de cliente, fecha, monto, ubicación, tipo de transacción, e ID de sucursal.
-- Se identificaron algunas transacciones como fraudulentas.
-- Almacenamiento: Los datos se guardaron en la tabla transactions.
-
-## 6. Verificación y Guardado Final
+## 5. Verificación y Guardado Final
 - Verificación: Se verificó que todas las tablas se crearon correctamente en la base de datos.
 - Guardado: Finalmente, la base de datos se guardó en Google Drive para su almacenamiento a largo plazo.
+
+## 6. Guardar la Base de Datos en Google Drive
+Usar la librería shutil para copiar la base de datos generada a Google Drive, permitiendo acceder a ella posteriormente desde el entorno de Drive.
+python
