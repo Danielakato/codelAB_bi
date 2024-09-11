@@ -100,6 +100,7 @@ Creación de varias tablas en la base de datos. El código generado por la IA cr
       - Datos incluidos: Transacciones con ID, ID de cliente, fecha, monto, ubicación, tipo de transacción, e ID de sucursal.
       - Almacenamiento: Los datos se guardaron en la tabla transactions.
 
+     <img src="https://github.com/Danielakato/codelAB_bi/blob/main/tabla%20transacciones.png">
 
 
 ## 5. Verificación y Guardado Final
