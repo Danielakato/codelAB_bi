@@ -70,8 +70,10 @@ Después, los resultados se imprimen como un DataFrame.
      
      <img src="https://github.com/Danielakato/codelAB_bi/blob/main/histograma%201.png">
      <img src="https://github.com/Danielakato/codelAB_bi/blob/main/histograma%202.png">
+     <img src="https://github.com/Danielakato/codelAB_bi/blob/main/histograma%203.png">
      
-
+## 4. Creación de Tablas en SQLite
+Prompt generado por IA: Aquí solicitaste la creación de varias tablas en la base de datos. El código generado por la IA crea las siguientes tablas en SQLite:
 
 
 
