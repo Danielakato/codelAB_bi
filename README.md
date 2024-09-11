@@ -45,6 +45,7 @@ El código conecta a la base de datos y luego ejecuta la consulta SQL que obtien
 Después, los resultados se imprimen como un DataFrame.
 <img src="https://private-user-images.githubusercontent.com/179054771/366516221-c85a3881-c12d-479a-8c3b-2bd001f72392.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYwNjc5NzYsIm5iZiI6MTcyNjA2NzY3NiwicGF0aCI6Ii8xNzkwNTQ3NzEvMzY2NTE2MjIxLWM4NWEzODgxLWMxMmQtNDc5YS04YzNiLTJiZDAwMWY3MjM5Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkxMVQxNTE0MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02OWJlMTQyZWM2ZWE3ZmViNmMwMDQ1YTM3YmVjMGFmOGY2Yzk0ZjYxZmM1MTMwODNkYTAyY2RlZDczNWRmNGYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ierNEiaIAJbKgZzR3uhLUZxlP0Fj6nLiSDjBpzwjmvo">
 <img src="https://github.com/Danielakato/codelAB_bi/blob/main/codigo%202.png">
+<img src="https://github.com/Danielakato/codelAB_bi/blob/main/codigo%203.png">
 
 
 ## 3. Análisis Exploratorio de Datos (EDA)
