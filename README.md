@@ -79,12 +79,14 @@ Creación de varias tablas en la base de datos. El código generado por la IA cr
       - Datos Incluidos: ID de cliente, nombre, dirección, número de teléfono y correo electrónico.
       - Almacenamiento: Los datos de clientes se guardaron en la tabla customers de SQLite3.
         
-  <img src="https://github.com/Danielakato/codelAB_bi/blob/main/tabla%20customers.png">
+      <img src="https://github.com/Danielakato/codelAB_bi/blob/main/tabla%20customers.png">
   
   2. Tabla de sucursales:
      - Usando Faker
      - Datos incluidos: ID de sucursal, ubicación, nombre del gerente y número de contacto.
      - Almacenamiento: Los datos de sucursales se guardaron en la tabla branches.
+       
+      <img src="https://github.com/Danielakato/codelAB_bi/blob/main/tabla%20sucursales.png">
        
   3. Tabla de tipos de transacciones:
       - Usando Faker
