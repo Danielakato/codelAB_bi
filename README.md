@@ -1,4 +1,4 @@
-<img width="428" alt="image" src="https://github.com/user-attachments/assets/c85a3881-c12d-479a-8c3b-2bd001f72392"><p align="center">
+<p align="center">
   <img src="https://github.com/Danielakato/codelAB_bi/blob/9005d2e9f06882bcac92256e915831b3c536be56/portada%20Daniela%20Kayerr.png" height= "230"/>
 </p>
 
@@ -41,7 +41,10 @@ Este primer bloque se enfoca en la configuración inicial y la creación de la c
 ## 2. Consulta SQL para Visualizar Registros
 - Prompt generado por IA: Ver los primeros 10 registros de la tabla tbl_customers, y el script generado ejecuta esta consulta y la muestra en pantalla.
 #### df=pd.read_sql_query("SELECT * FROM tbl_corrected_transactions LIMIT 10", conn)
-El código conecta a la base de datos y luego ejecuta la consulta SQL que obtiene los primeros 10 registros de la tabla *tbl_corrected_transactions*. Después, los resultados se imprimen como un DataFrame.
+El código conecta a la base de datos y luego ejecuta la consulta SQL que obtiene los primeros 10 registros de la tabla *tbl_corrected_transactions*. 
+Después, los resultados se imprimen como un DataFrame.
+<img src="https://private-user-images.githubusercontent.com/179054771/366516221-c85a3881-c12d-479a-8c3b-2bd001f72392.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYwNjc5NzYsIm5iZiI6MTcyNjA2NzY3NiwicGF0aCI6Ii8xNzkwNTQ3NzEvMzY2NTE2MjIxLWM4NWEzODgxLWMxMmQtNDc5YS04YzNiLTJiZDAwMWY3MjM5Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkxMVQxNTE0MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02OWJlMTQyZWM2ZWE3ZmViNmMwMDQ1YTM3YmVjMGFmOGY2Yzk0ZjYxZmM1MTMwODNkYTAyY2RlZDczNWRmNGYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ierNEiaIAJbKgZzR3uhLUZxlP0Fj6nLiSDjBpzwjmvo">
+<img src=https:// C:\Users\danii\Downloads\codigo 2.png">
 
 
 ## 3. Análisis Exploratorio de Datos (EDA)
