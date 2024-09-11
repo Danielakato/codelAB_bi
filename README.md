@@ -55,11 +55,15 @@ Después, los resultados se imprimen como un DataFrame.
 - Para cada tabla:
   1. Se imprime la información general del DataFrame (df.info()), que incluye el número de entradas, tipos de datos y memoria utilizada.
      <img src="https://github.com/Danielakato/codelAB_bi/blob/main/codigo%205.png">
-  3. Se muestran estadísticas descriptivas con el método df.describe() para obtener datos como la media, desviación estándar, entre otros.
-     <img src="https://github.com/Danielakato/codelAB_bi/upload/main">
-  5. También se verifica la existencia de valores faltantes con df.isnull().sum().
      
-  7. Visualizaciones: Para las columnas numéricas, se generan gráficos de histograma usando seaborn. Además, se genera una matriz de correlación si hay más de una columna numérica en la tabla, visualizada con un mapa de calor.
+  2. Se muestran estadísticas descriptivas con el método df.describe() para obtener datos como la media, desviación estándar, entre otros.
+     <img src="https://github.com/Danielakato/codelAB_bi/upload/main">
+     
+  3. También se verifica la existencia de valores faltantes con df.isnull().sum().
+     <img src="https://github.com/Danielakato/codelAB_bi/blob/main/codigo%207.png">
+     
+  4. Visualizaciones: Para las columnas numéricas, se generan gráficos de histograma usando seaborn. Además, se genera una matriz de correlación si hay más de una columna numérica en la tabla, visualizada con un mapa de calor.
+  5. 
 
 
 
