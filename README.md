@@ -69,6 +69,7 @@ Después, los resultados se imprimen como un DataFrame.
   4. Visualizaciones: Para las columnas numéricas, se generan gráficos de histograma usando seaborn. Además, se genera una matriz de correlación si hay más de una columna numérica en la tabla, visualizada con un mapa de calor.
      
      <img src="https://github.com/Danielakato/codelAB_bi/blob/main/histograma%201.png">
+     <img src="https://github.com/Danielakato/codelAB_bi/blob/main/histograma%202.png">
      
 
 
