@@ -1,4 +1,4 @@
-<p align="center">
+<img width="428" alt="image" src="https://github.com/user-attachments/assets/c85a3881-c12d-479a-8c3b-2bd001f72392"><p align="center">
   <img src="https://github.com/Danielakato/codelAB_bi/blob/9005d2e9f06882bcac92256e915831b3c536be56/portada%20Daniela%20Kayerr.png" height= "230"/>
 </p>
 
@@ -29,6 +29,39 @@
 
 # Codelab_BI: Generación y Almacenamiento de Datos Financieros en una Base de Datos SQLite3
 Este proyecto genera datos financieros ficticios utilizando la biblioteca Faker y la API randomuser.me, y almacena estos datos en una base de datos SQLite3. Los datos incluyen información de clientes, sucursales, tipos de transacciones y transacciones, incluidas las fraudulentas. A continuación se describen los pasos y procesos implementados.
+
+## 1. Configuración Inicial y Creación de la Base de Datos
+Este primer bloque se enfoca en la configuración inicial y la creación de la conexión con la base de datos SQLite.
+- Instalación de librerías: El código inicia instalando la librería faker, que se utiliza para generar datos ficticios. Esto se realiza a través de la línea !pip install faker.
+- Importación de módulos: Luego, se importan las bibliotecas necesarias como sqlite3, pandas, requests, random, uuid, Faker, numpy y shutil. Estos módulos permiten la manipulación de datos, la creación de tablas y la gestión de conexiones con la base de datos.
+- Montar Google Drive: Este paso permite acceder a Google Drive desde el entorno, usando el comando drive.mount('/content/drive').
+- Conexión a SQLite: Aquí, conectas a la base de datos SQLite utilizando sqlite3.connect, especificando la ruta en Google Drive *(/content/drive/MyDrive/sources/financial_data.db)*. Esto permite interactuar con la base de datos.
+- Lectura de tablas con Pandas: Para verificar que la conexión y las tablas funcionan correctamente, usas un comando SQL dentro de pd.read_sql_query para leer datos de la tabla tbl_customers. Luego, se imprime el contenido de esa tabla para su inspección.
+
+## 2. Consulta SQL para Visualizar Registros
+- Prompt generado por IA: Ver los primeros 10 registros de la tabla tbl_customers, y el script generado ejecuta esta consulta y la muestra en pantalla.
+#### df=pd.read_sql_query("SELECT * FROM tbl_corrected_transactions LIMIT 10", conn)
+El código conecta a la base de datos y luego ejecuta la consulta SQL que obtiene los primeros 10 registros de la tabla *tbl_corrected_transactions*. Después, los resultados se imprimen como un DataFrame.
+
+
+## 3. Análisis Exploratorio de Datos (EDA)
+Prompt generado por IA: Solicitaste un análisis exploratorio de datos (EDA) sobre las tablas de la base de datos, y se generó un script para ello.
+
+EDA básico: El código primero identifica todas las tablas de la base de datos a través de una consulta SQL que obtiene los nombres de las tablas.
+
+Para cada tabla:
+
+Se imprime la información general del DataFrame (df.info()), que incluye el número de entradas, tipos de datos y memoria utilizada.
+Se muestran estadísticas descriptivas con el método df.describe() para obtener datos como la media, desviación estándar, entre otros.
+También se verifica la existencia de valores faltantes con df.isnull().sum().
+Visualizaciones: Para las columnas numéricas, se generan gráficos de histograma usando seaborn. Además, se genera una matriz de correlación si hay más de una columna numérica en la tabla, visualizada con un mapa de calor.
+
+
+
+
+
+
+
 
 ## 1. Configuración inicial y creación de la base de datos
 - Bibliotecas Importadas: Utilizamos Python con bibliotecas como sqlite3, pandas, requests, uuid, Faker, numpy, y shutil.
